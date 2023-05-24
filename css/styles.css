@@ -127,14 +127,13 @@ color: #212121;
    .menu-nav-link:hover, 
    .menu-nav-link:focus,
    .menu-contact-link:hover,
-   .menu-contact-link:focus,
+   .menu-contact-link:focus {
+    color: var(--focus-color);
+   }
 
-.menu-icon {
-display: inline-block;
-margin-right: 10px;
-fill: var(--second-line-color)
-}
-
+   .menu-icon {
+   fill: transparent
+   }
 /* webstudio =====================*/
 
 
@@ -426,13 +425,40 @@ color: var(--focus-color);
 
 .footer-item:first-child {
          margin-top: 0px;
-      }
+ }
 
-.join-us {
-   font-style: normal;
+.footer-flex {
+   display: flex;
+   align-items: baseline;
+}
+
+.footer-style {
+   margin-top: 70px
+}
+
+.footer-social-title {
    font-weight: 700;
    font-size: 14px;
-   line-height: 16px;
+   line-height: 1.14;
    letter-spacing: 0.03em;
-   color: var(--main-background)
+   text-transform: uppercase;
+   color: var(--main-background);
+}
+
+.footer-social-container {
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center
+}
+
+.footer-social-icon-item {
+   width: 44px;
+   height: 44px;
+   margin-right: 10px
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+   background-color: var(--focus-color)
 }

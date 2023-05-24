@@ -432,14 +432,11 @@ color: var(--focus-color);
    align-items: baseline;
 }
 
-.footer-style {
-   margin-top: 70px
-}
-
 .footer-social-title {
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
+   margin-right: 70px;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--main-background);
@@ -455,6 +452,8 @@ color: var(--focus-color);
    align-items: center;
    justify-content: center
 }
+
+
 
 .footer-social-icons {
    width: 44px;
@@ -473,5 +472,6 @@ color: var(--focus-color);
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-   background-color: var(--focus-color)
+   background-color: var(--focus-color);
+   border-radius: 50%;
 }

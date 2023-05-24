@@ -445,6 +445,10 @@ color: var(--focus-color);
    color: var(--main-background);
 }
 
+.footer-social-icons:last-child {
+   margin-right: 0;
+}
+
 .footer-social-container {
    margin-top: 20px;
    display: flex;

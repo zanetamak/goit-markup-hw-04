@@ -127,9 +127,14 @@ color: #212121;
    .menu-nav-link:hover, 
    .menu-nav-link:focus,
    .menu-contact-link:hover,
-   .menu-contact-link:focus {
-   color: var(--focus-color)
+   .menu-contact-link:focus,
+
+.menu-icon {
+display: inline-block;
+margin-right: 10px;
+fill: var(--second-line-color)
 }
+
 /* webstudio =====================*/
 
 
@@ -422,3 +427,12 @@ color: var(--focus-color);
 .footer-item:first-child {
          margin-top: 0px;
       }
+
+.join-us {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   color: var(--main-background)
+}

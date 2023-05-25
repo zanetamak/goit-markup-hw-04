@@ -130,7 +130,9 @@ color: #212121;
 }
 
    .menu-nav-link:hover, 
-   .menu-nav-link:focus {
+   .menu-nav-link:focus,
+   .menu-contact-link:hover,
+   .menu-contact-link:focus {
     color: var(--focus-color);
    }
 

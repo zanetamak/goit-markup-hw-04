@@ -274,7 +274,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 padding-top: 30px;
-padding-bottom: 30px
+padding-bottom: 30px;
+height: 168px
 }
 
 .index-team-name {
@@ -297,6 +298,24 @@ font-family: 'Roboto';
    color: var(--second-line-color)
 }
 
+.social-media-container {
+margin-left: 30px;
+margin-top: -80px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.social-link {
+fill: rgba(175, 177, 184, 1)
+}
+
+.social-link:hover,
+.social-link:focus {
+   color: var(--main-background);
+   background-color: var(--focus-color);
+   border-radius: 50%;
+}
 /* buttons, img, portfolio ======================*/ 
 
 .paragraph-portfolio {
@@ -356,9 +375,15 @@ margin-right: 30px;
 }
 .figcaption-item {
    padding: 20px 24px;
-   border-right: 1px solid #eeeeee;
-   border-bottom: 1px solid #eeeeee;
-   border-left: 1px solid #eeeeee;
+   border: 1px solid #eeeeee;
+   
+}
+
+.figcaption-item:hover,
+.figcaption-item:focus {
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .figcaption-title {
